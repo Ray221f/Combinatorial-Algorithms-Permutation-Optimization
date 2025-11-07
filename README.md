@@ -1,7 +1,7 @@
 # Combinatorial Algorithms Research Project
 
 ## Project Overview
-This repository contains advanced implementations of combinatorial algorithms from theoretical computer science, developed as part of a graduate-level algorithms course.
+This repository contains advanced implementations of combinatorial algorithms from theoretical computer science.
 
 ## Key Features
 - **Induced Paw Detection**: Efficient algorithm to identify all induced paw subgraphs in undirected graphs
