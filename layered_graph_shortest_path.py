@@ -1,5 +1,6 @@
 '''
-Members of the group: Hao Guo, Zirui Fang
+Members of the group: Hao Guo, Zirui Fang (in arbitrary order)
+Assignment_2_Ex2
 '''
 import heapq
 import math
