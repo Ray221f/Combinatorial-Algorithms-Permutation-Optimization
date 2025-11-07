@@ -18,10 +18,10 @@ Each problem has **two parts**, leading to four Python implementations in total.
 
 | Exercise | File | Description |
 |-----------|------|-------------|
-| 1(a) | `assignment_1_1.py` | Shortest *walk* from `s` to `t` using **exactly one special edge** |
-| 1(b) | `assignment_1_2.py` | Shortest *path* from `s` to `t` using **at most two special edges** |
-| 2(a) | `assignment_2_1.py` | **Exact** minimum vertex cover using **backtracking + pruning** |
-| 2(b) | `assignment_2_2.py` | **2-approximation** vertex cover using a **greedy linear algorithm** |
+| 1(a) | `constrained_shortest_path.py` | Shortest *walk* from `s` to `t` using **exactly one special edge** |
+| 1(b) | `layered_graph_shortest_path.py` | Shortest *path* from `s` to `t` using **at most two special edges** |
+| 2(a) | `vertex_cover_backtracking.py` | **Exact** minimum vertex cover using **backtracking + pruning** |
+| 2(b) | `vertex_cover_approximation.py` | **2-approximation** vertex cover using a **greedy linear algorithm** |
 
 All programs read from **standard input**, print to **standard output**, and are fully self-contained in Python 3.
 
@@ -46,7 +46,7 @@ The first line of input contains: n m s t
 ---
 
 ### 1(a) — Shortest Walk Using **Exactly One Special Edge**
-📄 File: `assignment_1_1.py`
+📄 File: `constrained_shortest_path.py`
 
 #### Algorithm
 1. **Ignore all special edges** and run Dijkstra’s algorithm from:
@@ -96,7 +96,7 @@ O(\min\{|V|^2, |E| \log |V|\})
 ---
 
 ### 1(b) — Shortest Path Using **At Most Two Special Edges**
-📄 File: `assignment_1_2.py`
+📄 File: `layered_graph_shortest_path.py`
 
 #### Algorithm
 Implements a **layered-graph construction**:
@@ -158,7 +158,7 @@ um vm
 ---
 
 ### 2(a) — Exact Minimum Vertex Cover (Backtracking)
-📄 File: `assignment_2_1.py`
+📄 File: `vertex_cover_backtracking.py`
 
 #### Algorithm
 A **recursive backtracking** algorithm that explores inclusion/exclusion of each vertex,  
@@ -201,7 +201,7 @@ Exponential in worst case, but significantly pruned by the two strategies.
 ---
 
 ### 2(b) — 2-Approximation Vertex Cover
-📄 File: `assignment_2_2.py`
+📄 File: `vertex_cover_approximation.py`
 
 #### Algorithm
 A simple greedy algorithm (Algorithm 1 from the assignment):
@@ -250,7 +250,7 @@ Efficient for large sparse graphs.
 
 ### Run Exercise
 ```bash
-python3 assignment_1_1.py
-python3 assignment_1_2.py
-python3 assignment_2_1.py
-python3 assignment_2_2.py
+python3 constrained_shortest_path.py
+python3 layered_graph_shortest_path.py
+python3 vertex_cover_backtracking.py
+python3 vertex_cover_approximation.py
