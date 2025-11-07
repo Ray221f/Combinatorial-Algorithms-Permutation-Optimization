@@ -1,5 +1,6 @@
 '''
-Members of the group: Hao Guo, Zirui Fang
+Members of the group: Hao Guo, Zirui Fang (in arbitrary order)
+Assignment_2_Ex4
 The approximation factor of Algorithm 1 is 2, more justifications will be written in the report.
 The complexity of my algorithm is O(|V| + |E|), more complexity analysis will be written in the report.
 '''
