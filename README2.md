@@ -7,7 +7,7 @@
 
 **Date:** June 2025  
 **Course:** Combinatorial Algorithms  
-
+**Instructor:** Prof. Pablo Ezequiel Terlisky
 ---
 
 ## 📘 Overview
