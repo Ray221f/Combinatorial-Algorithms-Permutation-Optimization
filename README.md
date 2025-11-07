@@ -1,59 +1,39 @@
 # Combinatorial-Algorithms-Assignment-1
 
-GENEREAL REMARKS:
-Team Size: 2 students
-Language: Python
+# 104291 - Combinatorial Algorithms (Spring 2025)
+## Assignment 1 (v1.1)
 
-Problem Description: Given an undirected graph, find all sets of vertives that form an induced paaw subgraph. A paw graph consists of a triangle with an additional vertex connected to exactly one vertex of the triangle.
+**Authors:**  
+- Hao Guo (999014913)  
+- Zirui Fang (999014574)
 
-Input Format: 
-First line: n m (number of vertives and edges)
-Next m lines: v w (edges between vertices, numbered from 0 to n-1)
-
-Output Format:
-One set of vertices per line in lexicographic order (e.g., [0, 1, 2, 3])
-If no induced paws exist, print an appropriate message
-
-Example, for input:
-7 10
-1 2
-1 3
-2 3
-3 4
-2 4
-0 1
-0 4
-6 4
-5 3
-2 6
-
-The program should print:
-[0,1,2,3] 
-[0,2,3,4] 
-[0,2,4,6] 
-[1,2,3,5] 
-[1,2,3,6] 
-[1,2,4,6] 
-[2,3,4,5] 
-
-While for input:
-6 12 
-0 1 
-0 3 
-1 3 
-2 1 
-2 4 
-4 1 
-5 3 
-5 4 
-3 4 
-0 2 
-0 5 
-2 5
-The program should print that it found no paws in the graph.
-
+**Date:** April 2025  
+**Course:** Combinatorial Algorithms  
+**Instructor:** Prof. Pablo Ezequiel Terlisky  
 
 ---
+
+## 📘 Overview
+This repository contains our solutions for **Assignment 1** of the *Combinatorial Algorithms (104291)* course, Spring 2025.  
+The assignment consists of two main programming exercises implemented in **Python**:
+
+1. **Exercise 1:** Detecting *Induced Paw Subgraphs* in an undirected graph.  
+2. **Exercise 2:** Computing the **Trotter–Johnson rank** of a valid topological permutation under given precedence constraints.
+
+All source files are structured, documented, and can be executed in a Unix-based environment using Python 3.
+
+---
+
+## 🧩 Exercise 1 — Induced Paw Detection
+
+### Description
+A **paw graph** is a 4-vertex graph consisting of a triangle plus one additional vertex connected to exactly one vertex of the triangle.  
+
+This program reads an undirected graph from standard input and outputs all **sets of 4 vertices** that form an **induced paw subgraph**, listed in **lexicographic order**.  
+If no paw exists, it reports accordingly.
+
+### Input Format
+
 
 ISSUES TO BE FIXED:
 
@@ -63,9 +43,5 @@ ISSUES TO BE FIXED:
    Both of ds_comb_ass_1-2.py and gpt_comb_ass_1-2.py have issues with printing the output after reading all the inputs. Fix it!!!
 
 ---
-
-CA_notes:
-
-This is the notes file made by Ray221f for reviewing, not aim at uploading on M**dle
 
 
