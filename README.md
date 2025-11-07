@@ -145,4 +145,4 @@ This work bridges theoretical computer science with practical implementation, pr
 
 ---
 
-*Developed as part of graduate studies in Computer Science, demonstrating excellence in algorithmic problem-solving.*
+*Developed as part of undergraduate studies in Computer Science, demonstrating excellence in algorithmic problem-solving.*
