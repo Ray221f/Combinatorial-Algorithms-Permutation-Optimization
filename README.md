@@ -124,6 +124,7 @@ This project demonstrates mastery in:
 - Academic writing and technical documentation
 
 ## 📁 Repository Structure
+```
 ├── induced_paw_detection.py # Induced paw detection
 ├── constrained_permutation_ranking.py # Constrained permutation ranking
 ├── constrained_shortest_path.py # Special edge path finding
@@ -133,7 +134,7 @@ This project demonstrates mastery in:
 ├── README1.md # Detailed documentation
 ├── README2.md # Usage instructions
 └── test_cases/ # Comprehensive test suites
-
+```
 
 ## 🔬 Research Significance
 
